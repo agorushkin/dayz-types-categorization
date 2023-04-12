@@ -1,0 +1,21 @@
+<economycore>
+  <ce folder="db/types">
+    <file name="ammo.xml" type="types"/>
+    <file name="animals.xml" type="events"/>
+    <file name="attachments.xml" type="types"/>
+    <file name="base.xml" type="types"/>
+    <file name="clothing.xml" type="types"/>
+    <file name="containers.xml" type="types"/>
+    <file name="components.xml" type="types"/>
+    <file name="explosives.xml" type="types"/>
+    <file name="food.xml" type="types"/>
+    <file name="infected.xml" type="events"/>
+    <file name="medical.xml" type="types"/>
+    <file name="melee.xml" type="types"/>
+    <file name="misc.xml" type="types"/>
+    <file name="seasonal.xml" type="types"/>
+    <file name="tools.xml" type="types"/>
+    <file name="vehicles.xml" type="types"/>
+    <file name="weapons.xml" type="types"/>
+  </ce>
+</economycore>

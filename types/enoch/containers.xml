@@ -1,0 +1,355 @@
+<?xml version="1" encoding="UTF-8" standalone="yes"?>
+<types>
+
+	<!-- Containers -->
+
+	<!-- Military Containers -->
+	<type name="AmmoBox">
+	  <nominal>2</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>3600</restock>
+	  <min>1</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+	  <category name="containers"/>
+	  <usage name="Military"/>
+	</type>
+
+	<!-- Medical Containers -->
+	<type name="FirstAidKit">
+	  <nominal>8</nominal>
+	  <lifetime>14400</lifetime>
+	  <restock>0</restock>
+	  <min>3</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="shelves"/>
+	  <usage name="Medic"/>
+	</type>
+
+	<!-- Barrels -->
+	<type name="Barrel_Blue">
+	  <nominal>40</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>20</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="ground"/>
+	  <usage name="Industrial"/>
+	  <usage name="Farm"/>
+	</type>
+	<type name="Barrel_Green">
+	  <nominal>40</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>20</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="ground"/>
+	  <usage name="Industrial"/>
+	  <usage name="Farm"/>
+	</type>
+	<type name="Barrel_Red">
+	  <nominal>40</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>20</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="ground"/>
+	  <usage name="Industrial"/>
+	  <usage name="Farm"/>
+	</type>
+	<type name="Barrel_Yellow">
+	  <nominal>40</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>20</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="ground"/>
+	  <usage name="Industrial"/>
+	  <usage name="Farm"/>
+	</type>
+	<type name="BarrelHoles_Blue">
+	  <nominal>0</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+	</type>
+	<type name="BarrelHoles_Green">
+	  <nominal>0</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+	</type>
+	<type name="BarrelHoles_Red">
+	  <nominal>0</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+	</type>
+	<type name="BarrelHoles_Yellow">
+	  <nominal>0</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+	</type>
+
+	<!-- Soft Toys -->
+	<type name="Bear_Beige">
+	  <nominal>15</nominal>
+	  <lifetime>14400</lifetime>
+	  <restock>0</restock>
+	  <min>10</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="shelves"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="Bear_Dark">
+	  <nominal>15</nominal>
+	  <lifetime>14400</lifetime>
+	  <restock>0</restock>
+	  <min>10</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="shelves"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="Bear_Pink">
+	  <nominal>15</nominal>
+	  <lifetime>14400</lifetime>
+	  <restock>0</restock>
+	  <min>10</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="shelves"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="Bear_White">
+	  <nominal>15</nominal>
+	  <lifetime>14400</lifetime>
+	  <restock>0</restock>
+	  <min>10</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <tag name="shelves"/>
+	  <usage name="Village"/>
+	</type>
+
+	<!-- Tents -->
+	<type name="CarTent">
+	  <nominal>8</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>4</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Industrial"/>
+	</type>
+	<type name="LargeTent">
+	  <nominal>8</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>4</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Military"/>
+	</type>
+	<type name="MediumTent">
+	  <nominal>8</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>4</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="MediumTent_Green">
+	  <nominal>8</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>4</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Village"/>
+	  <usage name="Hunting"/>
+	</type>
+	<type name="MediumTent_Orange">
+	  <nominal>8</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>4</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="PartyTent">
+	  <nominal>10</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>6</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="PartyTent_Blue">
+	  <nominal>10</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>6</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="PartyTent_Brown">
+	  <nominal>10</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>6</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Village"/>
+	</type>
+	<type name="PartyTent_Lunapark">
+	  <nominal>10</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>43200</restock>
+	  <min>6</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Town"/>
+	  <usage name="Lunapark"/>
+	</type>
+
+	<!-- Boxes & Crates -->
+	<type name="SeaChest">
+	  <nominal>20</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>10</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+	  <category name="tools"/>
+	  <usage name="Industrial"/>
+	  <usage name="Farm"/>
+	  <usage name="Coast"/>
+	</type>
+	<type name="WoodenCrate">
+	  <nominal>0</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	  <category name="tools"/>
+	</type>
+	<type name="SmallProtectorCase">
+	  <nominal>15</nominal>
+	  <lifetime>3888000</lifetime>
+	  <restock>0</restock>
+	  <min>5</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	  <category name="containers"/>
+	  <usage name="Industrial"/>
+	</type>
+
+	<!-- Stashes -->
+	<type name="UndergroundStash">
+	  <nominal>0</nominal>
+	  <lifetime>1209600</lifetime>
+	  <restock>0</restock>
+	  <min>0</min>
+	  <quantmin>-1</quantmin>
+	  <quantmax>-1</quantmax>
+	  <cost>100</cost>
+	  <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+	  <category name="containers"/>
+	</type>
+</types>
